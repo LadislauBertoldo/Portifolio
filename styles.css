@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Images/Ladis.jpg);
+    background-size: cover;
+    background-color: #191919;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.portifolio {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.portifolio span {
+    color: aqua;
+}
+
+li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: aqua;
+    transition: 0.9s;
+}
+
+.meu-nome {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+}
+
+.meu-nome span {
+    color: aqua;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: rgb(160, 158, 158);
+    color: white;
+    justify-content: space-between;
+}
+
+section div p {
+    padding: 15px 0;
+}
+
+section img {
+    height: 350px;
+    margin-right: 25px;
+    border-radius: 100%;
+    border: 1px solid rgba(190, 190, 190, 0.473);
+}
+
+.sobre-mim {
+    margin-left: 20px;
+}
+
+section .button-sobre-mim {
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(190, 190, 190, 0.473);
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: aqua;
+    transition: 0.9s;
+}
